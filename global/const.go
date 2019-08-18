@@ -12,6 +12,7 @@ const (
 	CmdCompress   = "comp"
 	CmdDecompress = "decomp"
 	CmdTcp        = "tcp"
+	CmdUdp        = "udp"
 )
 
 const (
@@ -29,4 +30,5 @@ const (
 
 const (
 	ConstTCPBufferSize = 4096 // TCP buffer size(Receive)
+	ConstUDPBufferSize = 4096 // UDP buffer size(Receive)
 )
